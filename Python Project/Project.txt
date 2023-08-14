@@ -1,0 +1,2 @@
+The client needs to run in a loop in which it reads data from its status.txt, connects to the server,
+and sends the data to the server, it needs to do so once every X seconds
