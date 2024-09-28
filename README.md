@@ -14,9 +14,4 @@ The status file will contain the data of a single station using the following 3 
 The first line represents the station ID<br/>
 The second line represent the state of Alarm1 (0 for OFF; 1 for ON)<br/>
 The third line represent the state of Alarm2 (0 for OFF; 1 for ON)<br/>
-The status can be changed while the client is running manually or by using the Status Edit file<br/>
-<br/>
-### Usage:
-When opening the [Server file](./Python%20Project/Server/Server.py) it will be listening for the Client <br/>
-When opening the [Client file](./Python%20Project/Client/Client.py) it will ask for a file to read from: [Status1.txt](./Python%20Project/Client/Status1.txt) , [Status2.txt](./Python%20Project/Client/Status2.txt) , [Status3.txt](./Python%20Project/Client/Status3.txt) , a different file name can be entered or to Edit the Status<br/>
-[Status Edit](./Python%20Project/Client/Status_Edit.py) gives options to edit any file's ID, alarm or to show the file's content.
+The status can be changed while the client is running manually or by using the Status Edit file
